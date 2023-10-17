@@ -21,6 +21,7 @@ def generar_contraseña(longitud):
     random.shuffle(contraseña)
 
     # Convertir la lista a una cadena y devolverla
+    print('Tu contraseña: ')
     return ''.join(contraseña)
 
 longitud = int(input('Escribe el numero de caracteres deseados para tu contrasenna \n NOTA: el numero de caracteres debe ser mayor a cuatro: '))
