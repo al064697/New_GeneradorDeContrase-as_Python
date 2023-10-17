@@ -23,5 +23,5 @@ def generar_contraseña(longitud):
     # Convertir la lista a una cadena y devolverla
     return ''.join(contraseña)
 
-longitud = 10  # puedes cambiar esto a la longitud que prefieras
+longitud = 10  # puedes modificar la variable para configurar una nueva longitud
 print(generar_contraseña(longitud))
