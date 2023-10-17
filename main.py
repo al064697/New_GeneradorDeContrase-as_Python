@@ -23,5 +23,5 @@ def generar_contraseña(longitud):
     # Convertir la lista a una cadena y devolverla
     return ''.join(contraseña)
 
-longitud = int(input('Escribe el numero de caracteres deseados para tu contrasenna \n NOTA: el numero de caracteres debe ser mayor a cuatro'))
+longitud = int(input('Escribe el numero de caracteres deseados para tu contrasenna \n NOTA: el numero de caracteres debe ser mayor a cuatro: '))
 print(generar_contraseña(longitud))
